@@ -420,14 +420,14 @@ void wm_window_title(wmWindowManager *wm, wmWindow *win)
       char str[sizeof(((Main *)NULL)->filepath) + 24];
       BLI_snprintf(str,
                    sizeof(str),
-                   "UPBGE%s [%s%s]",
+                   "Crazy-life%s [%s%s]",
                    wm->file_saved ? "" : "*",
                    blendfile_path,
                    G_MAIN->recovered ? " (Recovered)" : "");
       GHOST_SetTitle(win->ghostwin, str);
     }
     else {
-      GHOST_SetTitle(win->ghostwin, "UPBGE");
+      GHOST_SetTitle(win->ghostwin, "Crazy-life");
     }
 
     /* Informs GHOST of unsaved changes, to set window modified visual indicator (macOS)
