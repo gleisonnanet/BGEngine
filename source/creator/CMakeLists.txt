@@ -524,7 +524,7 @@ if(UNIX AND NOT APPLE)
     endif()
     install(
       FILES
-        ${CMAKE_SOURCE_DIR}/release/freedesktop/upbge.desktop
+        ${CMAKE_SOURCE_DIR}/release/freedesktop/Crazy-Life.desktop
         ${CMAKE_SOURCE_DIR}/release/freedesktop/icons/scalable/apps/upbge.svg
         ${CMAKE_SOURCE_DIR}/release/freedesktop/icons/symbolic/apps/upbge-symbolic.svg
       DESTINATION "."
@@ -564,7 +564,7 @@ if(UNIX AND NOT APPLE)
 
     # misc files
     install(
-      FILES ${CMAKE_SOURCE_DIR}/release/freedesktop/upbge.desktop
+      FILES ${CMAKE_SOURCE_DIR}/release/freedesktop/Crazy-Life.desktop
       DESTINATION share/applications
     )
     install(

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
     <id>org.upbgeteam.UPBGE</id>
-    <launchable type="desktop-id">upbge.desktop</launchable>
+    <launchable type="desktop-id">Crazy-Life.desktop</launchable>
     <name>UPBGE</name>
     <summary>UPBGE is a free and open source 3D Game Engine integrated in Blender</summary>
     <metadata_license>CC0-1.0</metadata_license>

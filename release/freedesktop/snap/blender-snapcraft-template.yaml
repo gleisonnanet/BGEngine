@@ -23,7 +23,7 @@ confinement: classic
 apps:
     blender:
         command: ./blender-wrapper
-        desktop: ./upbge.desktop
+        desktop: ./Crazy-Life.desktop
 
 base: core18
 version: '@VERSION@'
@@ -36,7 +36,7 @@ parts:
         build-attributes: [keep-execstack, no-patchelf]
         override-build: |
             snapcraftctl build
-            sed -i 's|Icon=upbge|Icon=${SNAP}/upbge.svg|' ${SNAPCRAFT_PART_INSTALL}/upbge.desktop
+            sed -i 's|Icon=upbge|Icon=${SNAP}/upbge.svg|' ${SNAPCRAFT_PART_INSTALL}/Crazy-Life.desktop
         stage-packages:
             - libxcb1
             - libxext6
